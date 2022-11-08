@@ -4,6 +4,18 @@ body {
     font-style: normal;
     color: #212121;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+    
+}
+ul {
+    padding: none;
+    margin: none;
+    list-style: none;
+}
 
 .logo {
     font-family: Raleway, sans-serif;
@@ -12,6 +24,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 93px;
 }
 .web {
     color: #2196F3;
@@ -35,12 +48,22 @@ body {
     color: #FFFFFF;
 }
 
+.baner {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
 h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
+    margin:0;
 }
 
 .button {
@@ -52,6 +75,11 @@ h1 {
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin:auto;
+    border-radius: 4px;
+    width: 216px;
+    margin-bottom: 200px;
+
 }
 
 .button:hover,
@@ -73,6 +101,7 @@ h2 {
     letter-spacing: 0.03em;
 }
 
+
 .robota h3 {
     font-size: 14px;
     line-height: 1.14;
@@ -89,6 +118,11 @@ h2 {
 
 .team {
     background-color:#F5F4FA;
+    text-align: center;
+}
+.what{
+    text-align: center;
+
 }
 
 .team h3 {
@@ -143,7 +177,15 @@ button {
     color: #212121;
     background-color:#F5F4FA;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 20px;
 }
+button:hover,
+button:focus {
+    background-color: #188CE8;
+    color: #FFFFFF;
+}
+
 button:active {
     font-weight: 500;
     font-size: 16px;
@@ -169,9 +211,7 @@ button:active {
     color: #757575;
 }
 
-ul {
-    list-style: none;
-}
+
 
 address {
     font-style: normal;
@@ -179,5 +219,142 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 20px;
+    padding-bottom: 60px;
+
     
 }
+
+.navigation {
+    display: flex;
+    padding-left: 0;
+}
+
+.navigation li {
+    margin-right: 50px;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.contact {
+    display: flex;
+    margin-left: 344px;
+    padding-left: 0;
+}
+
+.contact li {
+    margin-right: 50px;  
+}
+.contact li:last-child {
+    margin-right: 0;
+}
+header {
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid #ECECEC;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.none {
+    display: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
+.rob {
+    display: flex;
+    padding-left: 0;
+}
+
+.rob li {
+    margin-right: 30px;
+}
+.rob li:last-child {
+    margin-right: 0;
+}
+
+center {
+    text-align: center;
+}
+
+.robota{
+    text-align: left;
+}
+
+.work {
+    display: flex;
+    margin-top: 50;
+    padding-left: 0;
+    
+}
+
+.work li{
+    margin-right: 30px;
+}
+.work li:last-child {
+    margin-right: 0;
+}
+
+.card{
+    background-color: #FFFFFF;
+    width: 270px;
+    height: 368px;
+}
+
+.people {
+    display: flex;
+}
+.people li{
+    margin-right: 30px;
+}
+.people li:last-child {
+    margin-right: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.logo2 {
+    padding-top: 60px;
+}
+
+.choise {
+    display: flex;
+    justify-content: center;
+}
+.choise li {
+    margin-right: 8px;
+}
+
+.choise li:last-child{
+    margin-right: 0;
+}
+
+.card2 {
+    background-color:#F5F5F5;
+       
+     border-bottom: 1px solid black;
+
+     
+}
+
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 34px;
+    margin-bottom: 0;
+
+
+}
+
